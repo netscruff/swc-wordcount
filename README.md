@@ -19,7 +19,21 @@ that she wants counts on and editing the script or renaming the input file
 before running the script each time is tedious.
 
 In this lesson we assume that you are familiar with basic Python scripting and
-using the command line.
+using the command line. We will be taking a Python script that can do word
+frequency counts and use the Python module argparse to pass in values for the
+text file we want to act on and how many of the top hits to report on.
+
+#### Key Points
+*  Argparse is part of the the standard Python language (it doesn't have to be installed in addition to installing Python)
+*  Using just a few lines of Python code we can provide useful help messages
+to someone using the script for the first time or for someone who has used the 
+script but forgot what command line arguments are implemented
+*  After adding the command line arguments to the script we can now use the 
+word frequency script in a shell script to process thousands of files almost
+as easy as it is to process a single file
+
+
+
 
 
  
